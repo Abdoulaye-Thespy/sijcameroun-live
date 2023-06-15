@@ -1660,6 +1660,9 @@ section {
   .breadcrumbs {
     margin-top: 74px;
   }
+  #packages-table {
+    font-size: 15px !important;
+  }
 }
 
 .breadcrumbs h2 {
@@ -1842,6 +1845,10 @@ section {
   #footer .footer-top .footer-info {
     margin: -20px 0 30px 0;
   }
+
+  #packages-table {
+    font-size: 9px !important;
+  }
 }
 
 .slider-text-style h2
@@ -1851,4 +1858,15 @@ section {
 .slider-text-style p
  {
    font-size: 25px !important;
+}
+
+.partners ul {
+  text-align: left;
+  list-style-type: none; /* Remove default bullets */
+}
+
+.partners ul li::before {
+  content: "•"; /* Bullet symbol */
+  color: #ef6445; /* Replace with your desired bullet color */
+  margin-right: 0.5em; /* Adjust spacing between bullet and text */
 }
