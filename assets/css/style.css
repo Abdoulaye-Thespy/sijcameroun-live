@@ -709,6 +709,7 @@ section {
 --------------------------------------------------------------*/
 .why-us {
   padding: 0;
+  height: 700px;
 }
 
 .why-us .content {
@@ -1870,3 +1871,4 @@ section {
   color: #ef6445; /* Replace with your desired bullet color */
   margin-right: 0.5em; /* Adjust spacing between bullet and text */
 }
+
