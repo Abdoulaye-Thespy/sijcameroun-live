@@ -70,6 +70,16 @@ h6 {
   }
 }
 
+.slider-text-style h2
+ {
+   font-size: 55px !important;
+}
+.slider-text-style p
+ {
+   font-size: 25px !important;
+}
+
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -285,6 +295,14 @@ h6 {
 
   .navbar ul {
     display: none;
+  }
+
+  .slider-text-style p {
+    font-size: 15px !important;
+  }
+
+  .slider-text-style h2 {
+    font-size: 25px !important;
   }
 }
 
@@ -1152,6 +1170,7 @@ section {
   margin-bottom: 30px;
 }
 
+
 .portfolio .portfolio-item .portfolio-info {
   opacity: 0;
   position: absolute;
@@ -1852,14 +1871,6 @@ section {
   }
 }
 
-.slider-text-style h2
- {
-   font-size: 55px !important;
-}
-.slider-text-style p
- {
-   font-size: 25px !important;
-}
 
 .partners ul {
   text-align: left;
